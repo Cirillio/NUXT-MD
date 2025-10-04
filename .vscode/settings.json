@@ -1,1 +1,9 @@
-{}
+{
+  "typescript.tsserver.maxTsServerMemory": 2048,
+  "vetur.enabled": false,
+  "volar.enable": true,
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/dist/**": true
+  }
+}

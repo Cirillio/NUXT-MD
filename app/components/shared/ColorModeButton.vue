@@ -16,13 +16,13 @@ const isDark = computed({
     <UButton
       :icon="isDark ? 'i-lucide-moon' : 'i-lucide-sun'"
       color="neutral"
-      variant="ghost"
+      variant="outline"
       :aria-label="`Switch to ${isDark ? 'light' : 'dark'} mode`"
       @click="isDark = !isDark"
     />
 
     <template #fallback>
-      <div class="size-8" />
+      <USkeleton class="size-8 rounded-full" />
     </template>
   </ClientOnly>
 </template>

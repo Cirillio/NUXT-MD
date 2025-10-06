@@ -1,15 +1,31 @@
 {
   "name": "vue-stack",
-  "version": "0.0.0",
-  "description": "",
+  "author": "Cirillio",
+  "version": "0.0.1",
+  "description": "app for study vue ecosystem",
+  "license": "MIT",
   "type": "module",
   "private": true,
+  "packageManager": "pnpm@10.17.1",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cirillio/vue-stack.git"
+  },
+  "homepage": "https://github.com/Cirillio/vue-stack#readme",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "vue-tsc --noEmit",
+    "format": "prettier --write .",
+    "clean": "rm -rf .nuxt dist node_modules/.pnpm"
   },
   "dependencies": {
     "@formkit/auto-animate": "^0.9.0",

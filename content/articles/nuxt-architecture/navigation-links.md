@@ -1,16 +1,10 @@
 ---
-article_id: 1
+slug: "links-and-navigation-in-blog"
 title: "Оформление ссылок и навигации в блоге"
 description: "Демонстрация кнопок для внутренних и внешних ссылок."
 date: 2025-09-20
 category: "ux"
 tags: ["links", "button", "seo"]
-author:
-  {
-    id: 11,
-    name: "Pushkinus",
-    avatar: "https://cdn.qwenlm.ai/output/011a5f67-6721-4c97-8b68-c4a7850d9731/t2i/22ffa232-6f86-498c-8bee-03177ee46685/1759563442.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiMDExYTVmNjctNjcyMS00Yzk3LThiNjgtYzRhNzg1MGQ5NzMxIiwicmVzb3VyY2VfaWQiOiIxNzU5NTYzNDQyIiwicmVzb3VyY2VfY2hhdF9pZCI6ImU0ZjE4MGVjLTExOWUtNDI4NC1hZmE2LTI2NDY0NGEwMDRjOSJ9.Tz5WninIZBIMYc5iYKUfhbRyDHXQjWw9ON03MeqQn_0",
-  }
 image: "https://cdn.qwenlm.ai/output/011a5f67-6721-4c97-8b68-c4a7850d9731/t2i/4e853d78-8e61-4a30-a804-0d3314115826/1759557142.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiMDExYTVmNjctNjcyMS00Yzk3LThiNjgtYzRhNzg1MGQ5NzMxIiwicmVzb3VyY2VfaWQiOiIxNzU5NTU3MTQyIiwicmVzb3VyY2VfY2hhdF9pZCI6IjFiNTA2YTZiLTZlYmQtNDA2OC05NTU0LTE2OWE1MzUxNGNkZCJ9.0UuseCAC7toETd-DB9Oy5j1H7xi_RjZsn5bkDHcJd3o"
 draft: false
 featured: false
@@ -24,7 +18,7 @@ SEO-оптимизация требует, чтобы мы делали акце
 
 Используйте `to` для навигации внутри Nuxt-приложения.
 
-::u-button{to="/blog/pinia-and-alerts" icon="i-heroicons-arrow-long-right" color="blue" variant="outline"}
+::u-button{to="/articles/state-and-alerts" icon="i-heroicons-arrow-long-right" color="blue" variant="outline"}
 Читать предыдущую статью о Pinia
 ::
 

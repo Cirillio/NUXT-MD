@@ -1,8 +1,9 @@
 export default defineAppConfig({
   ui: {
     colors: {
-      neutral: "stone",
-      primary: "amber",
+      neutral: "neutral",
+      primary: "emerald",
+      secondary: "rose",
     },
     header: {
       slots: {

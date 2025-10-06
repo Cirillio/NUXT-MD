@@ -1,5 +1,7 @@
 {
-  "name": "NUXTMD",
+  "name": "vue-stack",
+  "version": "0.0.0",
+  "description": "",
   "type": "module",
   "private": true,
   "scripts": {

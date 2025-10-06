@@ -18,6 +18,7 @@ const isDark = computed({
       color="neutral"
       variant="outline"
       :aria-label="`Switch to ${isDark ? 'light' : 'dark'} mode`"
+      size="sm"
       @click="isDark = !isDark"
     />
 

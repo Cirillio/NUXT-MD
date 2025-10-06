@@ -25,26 +25,13 @@ defineProps<{
 
     <div class="flex flex-col gap-2.5 w-full">
       <NuxtLink
-        :to="'/articles/' + article.article_id"
+        :to="'/articles/' + article.slug"
         class="line-clamp-2 w-full font-bold text-default hover:text-primary transition-all duration-75"
         >{{ article.title }}</NuxtLink
       >
 
-      <NuxtLink
-        :to="'/authors/' + article.author.id"
-        class="text-muted flex items-center gap-1.5 truncate w-fit text-sm hover:text-default transition-all duration-75"
-      >
-        <UAvatar
-          size="2xs"
-          :src="article.author.avatar"
-          :alt="article.author.name"
-        />
-        {{ article.author.name }}
-      </NuxtLink>
       <div class="flex w-full">
-        <span class="text-dimmed text-xs">{{
-          article.date.split("T")[0]
-        }}</span>
+        <span class="text-dimmed text-xs">{{ article.date }}</span>
       </div>
     </div>
   </UCard>

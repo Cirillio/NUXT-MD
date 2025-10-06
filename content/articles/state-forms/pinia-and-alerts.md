@@ -1,16 +1,10 @@
 ---
-article_id: 3
+slug: "state-and-alerts"
 title: "Управление состоянием и важные предупреждения"
 description: "Пример использования Pinia и компонента UAlert в технической статье."
 date: 2025-09-28
 category: "pinia"
 tags: ["state", "vue", "tips"]
-author:
-  {
-    id: 12,
-    name: "Asterius",
-    avatar: "https://cdn.qwenlm.ai/output/011a5f67-6721-4c97-8b68-c4a7850d9731/t2i/e9acf030-f93d-478e-85c8-425916c02d2a/1759563664.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiMDExYTVmNjctNjcyMS00Yzk3LThiNjgtYzRhNzg1MGQ5NzMxIiwicmVzb3VyY2VfaWQiOiIxNzU5NTYzNjY0IiwicmVzb3VyY2VfY2hhdF9pZCI6ImU0ZjE4MGVjLTExOWUtNDI4NC1hZmE2LTI2NDY0NGEwMDRjOSJ9.LVJqgCRxSvSqvNCAKCEUYHvZh_Ant1VgMQci46JVuyw",
-  }
 image: "https://copilot.microsoft.com/th/id/BCO.00580f33-556c-4b43-9209-47475328ddb4.png"
 draft: false
 featured: false

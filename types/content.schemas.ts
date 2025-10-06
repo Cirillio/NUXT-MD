@@ -1,20 +1,26 @@
 import { z } from "@nuxt/content";
 
-export const AuthorSchema = z.object({
-  id: z.string(),
-  name: z.string(),
-  bio: z.string().optional(),
-  avatar: z.string().optional(),
+export const CategorySchema = z.object({
+  label: z.string(),
+  title: z.string(),
+  desc: z.string(),
+  slug: z.string(),
+  order: z.number().optional(),
+  icon: z.string().optional(),
 });
 
 export const ArticleFrontMatterSchema = z.object({
-  article_id: z.number(),
+  slug: z.string(),
   title: z.string(),
   description: z.string(),
   date: z.coerce.date(),
   tags: z.array(z.string()),
 
-  author: AuthorSchema,
+  category: z.string().optional(),
+  categorySlug: z.string().optional(),
+
+  subCategory: z.string().optional(),
+  subCategorySlug: z.string().optional(),
 
   image: z.string().optional(),
   draft: z.boolean().optional(),
